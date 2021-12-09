@@ -4,7 +4,7 @@ import "./SearchBox.scss";
 const SearchBox = () => {
     return (
         <div>
-            SearchBox works
+            <input type="text" name="Searchbar" placeholder="Search..."/>
         </div>
     )
 }
