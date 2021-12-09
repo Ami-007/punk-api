@@ -4,6 +4,7 @@ import Card from "../Card/Card";
 const CardList = () => {
 
     return <div>
+        cardlist works
                 <Card></Card>
             </div>
 

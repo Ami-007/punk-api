@@ -5,6 +5,7 @@ const Main = () => {
 
     return (
         <div>
+            main works
             <CardList/> 
         </div>
     )

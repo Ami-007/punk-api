@@ -4,7 +4,7 @@ import "./SearchBox.scss";
 const SearchBox = () => {
     return (
         <div>
-            
+            SearchBox works
         </div>
     )
 }

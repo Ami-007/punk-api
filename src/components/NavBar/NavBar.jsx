@@ -1,7 +1,13 @@
 import React from "react";
+import FiltersList from "../FiltersList/FiltersList";
+import SearchBox from "../SearchBox/SearchBox";
 
 const NavBar = () => {
-    return <p>Search</p>
+    return <div>
+                <p>Navbar works</p>
+                <SearchBox/>
+                <FiltersList/>
+        </div>
 
 }
 
