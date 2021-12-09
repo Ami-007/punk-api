@@ -3,7 +3,13 @@ import CardList from "../CardList/CardList";
 
 const Main = () => {
 
-    <CardList/>
+    return (
+        <div>
+            <CardList/> 
+        </div>
+    )
+
+   
 
 }
 

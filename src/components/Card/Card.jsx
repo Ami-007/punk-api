@@ -1,7 +1,9 @@
 import React from "react";
 
 const Card = () => {
-    return <p>Card Here</p>
+    return(
+            <p>Card Here</p>
+    )
 
 }
 

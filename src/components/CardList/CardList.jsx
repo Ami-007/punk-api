@@ -3,7 +3,11 @@ import Card from "../Card/Card";
 
 const CardList = () => {
 
-    <Card></Card>
+    return <div>
+                <Card></Card>
+            </div>
+
+    
 }
 
 export default CardList;
