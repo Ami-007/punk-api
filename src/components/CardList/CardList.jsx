@@ -3,14 +3,30 @@ import Card from "../Card/Card";
 
 import "./CardList.scss";
 
-const CardList = () => {
+const CardList = (props) => {
+    const { beerArr } = props;
 
-    return <div className="cardContainer">
-        cardlist works
-                <Card></Card>
+    const beerCard = beerArr.map((beer) => {
+        return (
+        <Card
+        key={beer.id}
+        beerImg={beer.image_url}
+        name={beer.name}
+        abv={beer.abv}
+        beerInfo={beer.description}
+        />);
+    })
+        return (
+            <div className="beerContainer">
+                {beerCard}  
             </div>
 
+    )
+
+    
+    // .filter((beer) => beer.name.toLowerCase().includes(searchTerm.toLowerCase()))
     
 }
+
 
 export default CardList;

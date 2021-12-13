@@ -4,11 +4,11 @@ import SearchBox from "../SearchBox/SearchBox";
 
 import "./NavBar.scss";
 
-const NavBar = () => {
+const NavBar = (props) => {
+        const {handleSearch, searchTerm} = props;
         return (
         <div className="nav">
-                <p>Navbar works</p>
-                <SearchBox />
+                <SearchBox handleSearch={handleSearch} searchTerm={searchTerm}/>
                 <FiltersList />
         </div>
         )

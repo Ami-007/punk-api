@@ -1,8 +1,17 @@
 .beerCard {
     border: 2px solid black;
-    height: 200px;
-    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(88, 123, 127);
+    width: 20rem;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
+    padding: 2%;
+    margin: 5px;
+    color: rgb(220, 220, 221);
+
+    &__img {
+        width: 50px;
+    }
 }

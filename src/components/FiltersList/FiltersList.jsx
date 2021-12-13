@@ -6,7 +6,6 @@ import "./FiltersList.scss";
 const FiltersList = () => {
     return (
         <div>
-            filterlist works
             <FilterItem/>
         </div>
     )
