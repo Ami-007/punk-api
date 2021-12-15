@@ -4,7 +4,7 @@ import "./SearchBox.scss";
 const SearchBox = (props) => {
     const {label, searchTerm, handleSearch} = props;
     return (
-        <div>
+        <div className="searchbox">
             <input type="text" name={label} placeholder="Search..." value={searchTerm} onInput={handleSearch}></input>
         </div>
     )
