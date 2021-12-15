@@ -1,7 +1,9 @@
+@import "../../assets/variables.scss";
+
 .beerCard {
-    border: 2px solid black;
+    border: 2px solid $border-color;
     border-radius: 10px;
-    background-color: rgb(88, 123, 127);
+    background-color: $colorone;
     width: 20rem;
     display: flex;
     align-items: center;
@@ -9,7 +11,7 @@
     flex-wrap: wrap;
     padding: 2%;
     margin: 5px;
-    color: rgb(220, 220, 221);
+    color: $colortwo;
 
     &__img {
         width: 50px;
